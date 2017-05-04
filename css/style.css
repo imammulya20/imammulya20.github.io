@@ -1,0 +1,133 @@
+body, html { overflow-x:hidden; }
+
+body {
+    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 12px;
+	background-color: #ffffff; 
+	font-weight: 300; 
+	font-style: normal; 
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+.clear{
+    clear: both;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+body{
+    background: url(../images/bg-content.jpg);
+    background-repeat: repeat;
+}
+
+#header{
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+#header-mobile{
+    background-image: url(../images/bg-header-mb.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 281px;
+}
+
+.header img{
+    padding-top: 68px;
+}
+
+#content{
+
+}
+.content{
+   padding-top: 55px;
+}
+
+#hadiah{
+    background-image: url(../images/bg-hadiah.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.hadiah{
+    padding-top: 15px;
+}
+
+.button{
+
+}
+
+#btn-header{
+    margin-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.btn-bbmjoin{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.btn-join{
+    margin-top: 0px;
+}
+
+.btn-fanpage{
+    margin-top: 10px;
+}
+
+.btn-share{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button{
+    margin-top: 10px;
+}
+
+#social{
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    #header{
+        background-image: url(../images/bg-header-mb.jpg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .button{
+    }
+
+    .header img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hadiah h1{
+        font-family: "Helvetica";
+        font-weight: bold;
+        font-size: 28px;
+        color: #0397d6;
+    }
+
+    #hadiah{
+        background-image: url(../images/bg-hadiah-mb.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    .hadiah{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
