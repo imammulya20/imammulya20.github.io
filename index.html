@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webcomic with BBM Pre-Registration</title>
+        <meta charset="utf-8">
+        <meta name="Author" content="likearts">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Keywords" content="WebComic,Comic,Manga,Manhwa,Novel,Comic Indonesia,Webtoon">
+        <meta name="Description" content="IKUTI EVENTNYA DAN DAPATKAN HADIAHNYA!!!">
+        <meta property="og:image" content="http://tamamulya.hol.es/images/share-fb.jpg" />
+        <meta property="og:image:width" content="600" />
+		<meta property="og:image:height" content="315" />
+		<meta property="og:image:type" content="image/png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
+        <link rel="icon" type="image/png" href="images/Webcomicfavicon.png" sizes="96x96">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel='stylesheet' type='text/css'>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=114119791963853";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+    function fbShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
+</script>
+	<div id="header">
+		<div class="col-md-12">
+			<div class="header">
+				<img src="images/img-header.png" class="img-responsive center-block" alt="">
+			</div>
+		</div>
+	</div>		
+	<div class="clear"></div>
+	<div id="content">
+		<div class="col-md-12">
+			<div class="button">
+				<div class="btn-ikutpoll">
+					<a href="https://goo.gl/forms/3qZ77CPgvBYm5kPr1" target="_new"><img src="images/btn-daftar.png" class="img-responsive center-block" alt="Daftar" title="Daftar"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="hadiah">
+		<div class="col-md-12">
+			<div class="hadiah">
+				<img src="images/img-hadiah.png" class="img-responsive center-block" alt="hadiah">
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="social">
+		<div class="col-md-12">
+			<div class="social">
+				<div class="btn-bbmjoin">
+					<img src="images/bbm-join.png" class="img-responsive center-block" alt="WebComic" title="Join WebComic">
+				</div>
+				<div class="btn-join">
+					<a href="http://www.pin.bbm.com/c00479365"><img src="images/btn-joinwebcomic.png" class="img-responsive center-block" alt="WebComic" title="Join WebComic!"></a>
+				</div>
+				<div class="btn-fanpage">
+					<a href="#" target="_new"><a href="https://www.facebook.com/webcomic.co.id/" target="_new"><img src="images/btn-fanpage.png" class="img-responsive center-block" title="Fanpage WebComic" alt="Fanpage WebComic"></a></a>
+				</div>
+				<div class="btn-share hidden-xs hidden-sm">
+					<a href="javascript:fbShare('http://tamamulya.hol.es/', 'Fb Share', 'Facebook share popup', 'http://tamamulya.hol.es/', 600, 600)"> <img src="images/btn-share.png" class="img-responsive center-block" title="Share WebComic" alt="Share WebComic"></a>
+				</div>
+				<div class="btn-share visible-xs visible-sm">
+					<a href="http://www.facebook.com/sharer.php?u=http://tamamulya.hol.es/" target="_new"> <img src="images/btn-share.png" class="img-responsive center-block" title="Share WebComic" alt="Share WebComic"></a>
+				</div>
+			</div>
+        </div>
+	</div>
+</body>
+</html>
